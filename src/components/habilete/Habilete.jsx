@@ -1,8 +1,12 @@
 import React from 'react'
+import './Habilete.css'
 
-const Habilete = () => {
+const Habilete = (props) => {
+  const classnames = ["habilete"];
+  if (props.className) classnames.push(props.className);
+
   return (
-    <div>Habilete</div>
+    <span className={classnames.join(" ")}>{props.children}</span>
   )
 }
 

@@ -3,4 +3,14 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color: black;
+}
+
+body {
+  background-image: url(/src/assets/bg.jpeg);
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
 }

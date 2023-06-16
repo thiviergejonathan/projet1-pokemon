@@ -1,15 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Carte from './components/carte/Carte'
+import Cartes from './components/cartes/Cartes'
 
 function App() {
 
   return (
     <>
       <h1>Cartes Pokémon</h1>
-      <div>
-        
-      </div>
+      <Cartes></Cartes>
     </>
   )
 }
