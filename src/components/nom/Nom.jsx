@@ -1,8 +1,13 @@
 import React from 'react'
-
+import './Nom.css'
 const Nom = (props) => {
+  const classnames = ["nom"];
+  if (props.className) classnames.push(props.className);
+
   return (
-    <div>{props.children}</div>
+    <div>
+      <span className={classnames.join(" ")}>{props.children}</span>
+    </div>
   )
 }
 

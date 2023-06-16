@@ -1,7 +1,8 @@
 .card {
     border-radius: 3rem;
-    width: 30rem;
+    width: 25rem;
     background-color: rgb(255, 255, 148);
     margin-bottom: 3rem;
     filter: drop-shadow(0.4rem 0.4rem 0.4rem #616161);
+    padding: 2.5rem;
 }

@@ -6,7 +6,7 @@ const Habilete = (props) => {
   if (props.className) classnames.push(props.className);
 
   return (
-    <span className={classnames.join(" ")}>{props.children}</span>
+      <span className={classnames.join(" ")}>{props.children}</span>
   )
 }
 
