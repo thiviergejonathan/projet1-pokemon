@@ -1,71 +1,81 @@
 import React from 'react'
 import Carte from '../carte/Carte'
-import Image from '../image/Image'
-import Nom from '../nom/Nom'
-import Habilete from '../habilete/Habilete'
 
 const Cartes = () => {
+
+
   return (
     <div>
-        <Carte>
-            <Image src="0001Bulbasaur.png"></Image>
-            <Nom>Bulbasaur</Nom>
-            <Habilete>Tackle</Habilete>
-            <Habilete>Growl</Habilete>
+        <Carte
+          image="0001Bulbasaur.png"
+          nom="Bulbasaur"
+          habiletes={["Tackle", "Growl"]}
+        >
         </Carte>
-        <Carte>
-            <Image src="0004Charmander.png"></Image>
-            <Nom>Charmander</Nom>
-            <Habilete>Scratch</Habilete>
-            <Habilete>Growl</Habilete>
+
+        <Carte
+          image="0004Charmander.png"
+          nom="Charmander"
+          habiletes={["Scratch", "Growl"]}
+        >
         </Carte>
-        <Carte>
-            <Image src="0007Squirtle.png"></Image>
-            <Nom>Squirtle</Nom>
-            <Habilete>Tackle</Habilete>
-            <Habilete>Tail Whip</Habilete>
+
+        <Carte
+          image="0007Squirtle.png"
+          nom="Squirtle"
+          habiletes={["Tackle", "Tail Whip"]}
+        >
         </Carte>
-        <Carte>
-            <Image src="0012Butterfree.png"></Image>
-            <Nom>Butterfree</Nom>
-            <Habilete>Confusion</Habilete>
-            <Habilete>Psybeam</Habilete>
+
+        <Carte
+          image="0012Butterfree.png"
+          nom="Butterfree"
+          habiletes={["Confusion", "Psybeam"]}
+        >
         </Carte>
-        <Carte>
-            <Image src="0025Pikachu.png"></Image>
-            <Nom>Pikachu</Nom>
-            <Habilete>Thunder Shock</Habilete>
-            <Habilete>Tail Whip</Habilete>
-            <Habilete>Quick Attack</Habilete>
+
+        <Carte
+          image="0025Pikachu.png"
+          nom="Pikachu"
+          habiletes={["Thunder Shock", "Tail Whip", "Quick Attack"]}
+        >
         </Carte>
-        <Carte>
-            <Image src="0027Sandshrew.png"></Image>
-            <Nom>Sandshrew</Nom>
-            <Habilete>Scratch</Habilete>
+
+        <Carte
+          image="0027Sandshrew.png"
+          nom="Sandshrew"
+          habiletes={["Scratch"]}
+        >
         </Carte>
-        <Carte>
-            <Image src="0039Jigglypuff.png"></Image>
-            <Nom>Jigglypuff</Nom>
-            <Habilete>Sweet Kiss</Habilete>
-            <Habilete>Disarming Voice</Habilete>
+
+        <Carte
+          image="0039Jigglypuff.png"
+          nom="Jigglypuff"
+          habiletes={["Sweet Kiss", "Disarming Voice"]}
+        >
         </Carte>
-        <Carte>
-            <Image src="0057Primeape.png"></Image>
-            <Nom>Primeape</Nom>
-            <Habilete>Scratch</Habilete>
-            <Habilete>Low Kick</Habilete>
+
+        <Carte
+          image="0057Primeape.png"
+          nom="Primeape"
+          habiletes={["Scratch", "Low Kick"]}
+        >
         </Carte>
-        <Carte>
-            <Image src="0062Poliwrath.png"></Image>
-            <Nom>Poliwrath</Nom>
-            <Habilete>Dynamic Punch</Habilete>
-            <Habilete>Bubble Beam</Habilete>
+
+        <Carte
+          image="0062Poliwrath.png"
+          nom="Poliwrath"
+          habiletes={["Dynamic Punch", "Bubble Beam"]}
+        >
         </Carte>
-        <Carte>
-            <Image src="0063Abra.png"></Image>
-            <Nom>Abra</Nom>
-            <Habilete>Teleport</Habilete>
+
+        <Carte
+          image="0063Abra.png"
+          nom="Abra"
+          habiletes={["Teleport"]}
+        >
         </Carte>
+
     </div>
   )
 }

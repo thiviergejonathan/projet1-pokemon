@@ -1,3 +1,10 @@
 .habilete{
+    display: block;
+    font-size: x-large;
+    color: red;
+}
+
+.hideSkills{
     visibility: hidden;
+    display: none;
 }
